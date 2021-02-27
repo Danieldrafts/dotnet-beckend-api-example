@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "y+mYwrANpcGMUovKhhHQ0lVp+nMD33KHu2UhKYhOuVGBfQGtNvYy9lIfhKoxHExM6lXcsy8ZvwhS/aqBI/3uEA==",
+  "dgSpecHash": "yyluUYsIUFePFOuOI3w/M7/Gn28H+LR1QyBNY6tv9+MUE9+npB51wBAOIrEOG5hhfmt8ZTiWSPTfDI47B9/9Iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel\\Documents\\Aulas\\dotnet-beckend-api-example\\curso.api\\curso.api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

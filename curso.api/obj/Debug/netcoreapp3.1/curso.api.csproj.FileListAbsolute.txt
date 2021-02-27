@@ -18,3 +18,9 @@ C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\obj\Debug\n
 C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\obj\Debug\netcoreapp3.1\curso.api.dll
 C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\obj\Debug\netcoreapp3.1\curso.api.pdb
 C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\obj\Debug\netcoreapp3.1\curso.api.genruntimeconfig.cache
+C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\obj\Debug\netcoreapp3.1\curso.api.csproj.CopyComplete
+C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Daniel\Documents\Aulas\dotnet-beckend-api-example\curso.api\obj\Debug\netcoreapp3.1\curso.api.MvcApplicationPartsAssemblyInfo.cs
