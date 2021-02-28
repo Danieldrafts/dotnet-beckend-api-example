@@ -16,6 +16,12 @@ namespace curso.api.Controllers
         [Route("logar")]
         public IActionResult Login(LoginViewModelInput loginViewModelInput)
         {
+            if(!ModelState.IsValid)
+            {
+                //percorre os erros e devolve a lista de erros
+                return  BadRequest(new ValidateFieldViewModelOutput(
+                    ModelState.SelectMany(sm => sm.Value.Errors).Select(s => s.ErrorMessage)));
+            }
             return Ok(loginViewModelInput);
         }
 
