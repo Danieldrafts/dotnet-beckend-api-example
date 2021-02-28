@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using curso.api.Filters;
 using curso.api.Models.Users;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,14 +15,9 @@ namespace curso.api.Controllers
     {
         [HttpPost]
         [Route("logar")]
+        [CustomModelStateValidation]
         public IActionResult Login(LoginViewModelInput loginViewModelInput)
         {
-            if(!ModelState.IsValid)
-            {
-                //percorre os erros e devolve a lista de erros
-                return  BadRequest(new ValidateFieldViewModelOutput(
-                    ModelState.SelectMany(sm => sm.Value.Errors).Select(s => s.ErrorMessage)));
-            }
             return Ok(loginViewModelInput);
         }
 
